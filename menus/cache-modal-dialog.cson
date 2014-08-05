@@ -1,0 +1,17 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable cache-modal-dialog': 'cache-modal-dialog:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'cache-modal-dialog'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'cache-modal-dialog:toggle' },
+        { 'label': 'Toggle', 'command': 'cache-modal-dialog:toggle' }
+      ]
+    ]
+  }
+]
