@@ -10,7 +10,7 @@
       'label': 'cache-modal-dialog'
       'submenu': [
         { 'label': 'Toggle', 'command': 'cache-modal-dialog:toggle' },
-        { 'label': 'Toggle', 'command': 'cache-modal-dialog:toggle' }
+        { 'label': 'Toggle2 List', 'command': 'cache-modal-dialog:toggle2' }
       ]
     ]
   }
